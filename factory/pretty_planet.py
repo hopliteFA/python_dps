@@ -8,4 +8,4 @@ class PrettyPlanet(IPlanet): #extends the IPlanet interface
         self.color = "blue"
 
     def print_color(self):
-        return (f"I am a {self.color} planet.")
+        return f"I am a {self.color} planet."

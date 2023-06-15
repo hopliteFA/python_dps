@@ -5,4 +5,4 @@ class BlandPlanet(IPlanet): #extends the IPlanet interface
         self.color = "brown"
 
     def print_color(self):
-        return (f"I am a {self.color} planet.")
+        return f"I am a {self.color} planet."

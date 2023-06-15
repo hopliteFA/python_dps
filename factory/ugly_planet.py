@@ -1,3 +1,4 @@
+'defines an ugly planet'
 from planet_interface import IPlanet
 
 class UglyPlanet(IPlanet): #extends the IPlanet interface
